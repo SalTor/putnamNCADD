@@ -1,0 +1,11 @@
+*.pdf
+*.img
+*.jpg
+*.gif
+*.docx
+*.ico
+*.psd
+*.png
+*.db
+images/
+pdfFiles/
