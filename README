@@ -1,0 +1,9 @@
+Branch naming scheme
+====================
+- fix[Month]: You are fixing something you put live
+- update[Month]: You are making the requested updates
+- update[Month]Feat
+
+Last modified
+=============
+- August 04, 2014: @SalTor
