@@ -6,8 +6,9 @@ body{
 	margin-top:0;
 	padding:0;
 	width:100%;
-	color:#686868;
-	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+	/*color:#686868;*/
+	color:#1c1c1c;
+	font:normal 14px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
 }
 .main{
 	background:#f8f8f8;
