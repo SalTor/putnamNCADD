@@ -1,5 +1,8 @@
 /* Design by http://www.dreamtemplate.com */
 @charset "utf-8";
+.fbg p{
+	color: #F3F8FA;
+}
 body{
 	position:relative;
 	margin:0;
@@ -13,6 +16,7 @@ body{
 .main{
 	background:#f8f8f8;
 }
+
 .clr{
 	clear:both;
 	padding:0;
