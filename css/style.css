@@ -1,3 +1,11 @@
+@font-face {
+	font-family: myriadpro;
+	src: url('../fonts/MyriadPro/MYRIADPRO-REGULAR.OTF');
+}
+@font-face{
+	font-family: myriadprobold;
+	src: url('../fonts/MyriadPro/MYRIADPRO-BOLD.OTF');
+}
 /* Design by http://www.dreamtemplate.com */
 @charset "utf-8";
 .fbg p{

@@ -9,3 +9,5 @@
 *.db
 images/
 pdfFiles/
+fonts/
+sftp-config.json
