@@ -17,9 +17,10 @@ body{
 	margin-top:0;
 	padding:0;
 	width:100%;
-	/*color:#686868;*/
 	color:#1c1c1c;
-	font:normal 14px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+	/*font:normal 14px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;*/
+	/* @SalTor */
+	font:normal 14px/1.5em myriadpro, "Liberation sans", Arial, Helvetica, sans-serif;
 }
 .main{
 	background:#f8f8f8;
@@ -61,7 +62,6 @@ a{
 }
 .logo{
 	padding:0;
-	/*float:left;*/
 	width:auto;
 	height:120px;
 }
@@ -77,12 +77,9 @@ h1 a, h1 a:hover{
 	color:#000;
 	text-decoration:none;
 }
-h1 span{
-}
 h1 small{
 	display:block;
 	margin:-4px 0;
-	/*padding-left:160px;*/
 	font-size:20px;
 	line-height:1.2em;
 	letter-spacing:normal;
@@ -142,11 +139,6 @@ h1 small{
 	background:url(../images/menu_split.gif) no-repeat right center;
 }
 .menu_nav ul li.lasttab{
-	display:inline;
-	padding:0 5px 0 5px;
-	position:relative;
-	float:left;
-	right:50%;
 	background:none;
 }
 .menu_nav ul li a{
@@ -202,8 +194,6 @@ h1 small{
 	border:1px solid #ddd;
 	background:#fff url(../images/article_bg.gif) repeat-x left top;
 }
-.content .mainbar .post_content{
-}
 .content .mainbar .post_content strong{
 	color:#353c3e;
 }
@@ -212,11 +202,24 @@ h1 small{
 	float:right;
 	width:295px;
 }
+.sidebar .publications{
+	font-family: myriadprobold;
+}
 .content .sidebar .gadget{
 	margin:0 0 12px;
 	padding:12px 20px 24px;
+	/* @SalTor */
+	font-family: myriadpro;
 }
-.content .sidebar h2{
+/* @SalTor */
+.content .sidebar .gadget ul li{
+	list-style-type: none;
+}
+.content .sidebar .gadget ul li:hover a{
+	color:rgba(0, 0, 0, .5);
+}
+.post_content li{
+	margin-left: 2em;
 }
 ul.sb_menu, ul.ex_menu{
 	margin:0;
@@ -503,6 +506,9 @@ a{
 .press-release-link{
 	font-size: 14px;
 	padding: 2px 0 2px 0;
+}
+.programs span, .coalition span, .contact span{
+	font-family: myriadprobold;
 }
 div.gambling-content-left{
 	width:40%;
