@@ -215,6 +215,9 @@ h1 small{
 .content .sidebar .gadget ul li{
 	list-style-type: none;
 }
+.noList{
+	list-style-type: none;
+}
 .content .sidebar .gadget ul li:hover a{
 	color:rgba(0, 0, 0, .5);
 }
