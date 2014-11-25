@@ -4,11 +4,10 @@ Branch naming scheme
 - update[Month]: You are making the requested updates
 - update[Month]Feat
 
-Next
-====
-- Remove the peculiar doctype garbage
-
-Edit Log
-=============
-- Septem 05, 2014: @SalTor
-- August 04, 2014: @SalTor
+Information for next developer
+==============================
+- custom.css was created on November 24th 2014
+	- My intention is that it will separate the css I create from the css I was handed
+- Please treat your commit messages and coding
+	- practices in such a way that it will be easy for the next developer to
+	- continue where you left off
