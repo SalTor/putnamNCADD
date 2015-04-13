@@ -2,7 +2,7 @@ Notice
 ======
 - This project is no longer ongoing
 - This is merely to show what I was doing when it was live
-- To see what the site would have looked like please refer to http://saltor.nyc/projects/Putnam NCADD
+- To see what the site would have looked like please refer to [my site](http://saltor.nyc/projects/Putnam NCADD)
 
 Branch naming scheme
 ====================
