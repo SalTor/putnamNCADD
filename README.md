@@ -1,3 +1,8 @@
+Notice
+======
+- This project is no longer ongoing
+- This is merely to show what I was doing when it was live
+
 Branch naming scheme
 ====================
 - fix[Month]: You are fixing something you put live
