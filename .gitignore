@@ -1,15 +1,1 @@
-*.pdf
-*.img
-*.jpg
-*.gif
-*.docx
-*.ico
-*.psd
-*.png
-*.db
-files/
-SpryAssets/
-images/
-pdfFiles/
-fonts/
-sftp-config.json
+.DS_Store
