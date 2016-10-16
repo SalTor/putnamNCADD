@@ -1,11 +1,9 @@
-Notice
-===
-- This project is no longer ongoing
-- This is merely to show what I was doing when it was live
-- To see what the site would have looked like please refer to [my site](http://projects.saltor.nyc/Putnam NCADD/)
+#Putnam NCADD Website Archive
+This is an archive of a project I was maintaining. I only worked with the HTML and CSS during the time I was maintaing it.
 
-Branch naming scheme
-===
-- fix[Month]: You are fixing something you put live
-- update[Month]: You are making the requested updates
-- update[Month]Feat
+
+To see what this site would have looked like, please refer to the projects section of my personal website, found [here](http://projects.saltor.nyc/Putnam%20NCADD/).
+
+
+##Update Log
+[Oct 16, 2016] After reading some more on accessibility I thought I'd check out this project again and see what I could do to improve it since it's essentially just HTML and CSS.
