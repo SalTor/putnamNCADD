@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+    background-image: url(images/bkground.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#navigation {
+    background-color: #b081e2;
+    color: #000000;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-style: outset;
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+    &.p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000;
+        text-align: left;
+    }
+}
+
+#header {
+    width: 800px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-top: outset;
+    color: #000000;
+}
+
+#council {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+
+#rightLinksHome {
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+}
+
+#survey {
+    width: 140px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.style2 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+#contact {
+    width: 300px;
+}
+
+#footer {
+    width: 800px;
+    background-color: #A990D9;
+    font-family: geneva, helvetica, ariel, sans-serif;
+    font-size: 12px;
+    border-bottom: outset;
+    height: auto;
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    font-family: Geneva, ariel, helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.style2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.style6 {
+    color: #003300;
+}
+
+.style7 {
+    color: #003300;
+    font-size: 12px;
+}
+
+.style9, .style10 {
+    color: #000000;
+    font-size: 12px;
+}
+
+.style13 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.email a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #003300;
+}

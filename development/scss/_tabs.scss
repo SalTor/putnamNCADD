@@ -1,0 +1,99 @@
+#screenTabs {
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    height: 1px;
+    background: #ffffff url("../img/icons/tabs/bg.gif") repeat-x bottom;
+}
+
+td > #screenTabs {
+    height: auto;
+}
+
+#tabs {
+    float: left;
+    width: 620px;
+    line-height: normal;
+    white-space: nowrap;
+    background: #ffffff url("../img/icons/tabs/bg.gif") repeat-x bottom;
+
+    ul {
+        margin: 0;
+        padding: 0 10px 10px 10px;
+        list-style: none;
+    }
+
+    a {
+        display: block;
+        background: url("../img/icons/tabs/right.gif") no-repeat right top;
+        padding: 5px 9px 4px 4px;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: #000000;
+        width: .1em;
+
+        &:hover,
+        &:visited,
+        &:active {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+
+    > ul a {
+        width: auto;
+    }
+
+    li {
+        float: left;
+        background: url("../img/icons/tabs/left.gif") no-repeat left top;
+        margin: 0;
+        padding: 0 0 0 2px;
+        border-bottom: solid 1px #776655;
+
+        &#current {
+            border-width: 0;
+        }
+    }
+
+    #current {
+        background-image: url("../img/icons/tabs/left_on.gif");
+        margin-left: -3px;
+
+        a {
+            background-image: url("../img/icons/tabs/right_on.gif");
+            padding: 3px 9px 7px 6px;
+            vertical-align: baseline;
+        }
+    }
+
+    .last a {
+        background-image: url("../img/icons/tabs/right_last.gif");
+    }
+
+    .first {
+        background-image: url("../img/icons/tabs/left_first.gif");
+
+        &#current {
+            margin-left: 0;
+        }
+    }
+
+    li {
+        &:hover {
+            background-position: 0% -150px;
+            cursor: pointer;
+            a {
+                background-position: 100% -150px;
+            }
+        }
+
+        &.first:hover {
+            background-position: top left;
+        }
+    }
+
+    a:hover {
+        background-position: 100% -150px;
+    }
+}
